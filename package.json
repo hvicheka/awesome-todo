@@ -6,7 +6,6 @@
   "author": "Hok Vicheka <hvicheka.it@gmail.com>",
   "private": true,
   "scripts": {
-    "test": "echo \"No test specified\" && exit 0",
     "dev": "quasar dev"
   },
   "dependencies": {

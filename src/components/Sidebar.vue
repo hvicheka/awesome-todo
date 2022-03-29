@@ -2,6 +2,7 @@
   <q-item
     clickable
     :to="link"
+    class="text-grey-4"
   >
     <q-item-section
       v-if="icon"
@@ -37,3 +38,10 @@ export default {
   }
 }
 </script>
+
+<style>
+.q-drawer .q-router-link--exact-active {
+  /*background-color: #F5F5F5 !important;*/
+  color: white !important;
+}
+</style>
